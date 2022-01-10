@@ -1,0 +1,133 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+html{
+ font-size:15px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+a{
+ text-decoration:none;
+}
+
+.container{
+height:100%;
+width:80%;
+border:1px solid rgb(220, 212, 212);
+margin:30px;
+}
+
+.alvin{
+ padding:15px;
+ border-top: 1px solid rgb(220, 212, 212);
+}
+.first{
+ border:0;
+}
+
+.link{
+ display:flex;
+ flex-direction: column;
+}
+.link a{
+ color:teal;
+}
+.link a:hover{
+ background-color:rgb(245, 234, 234);
+}
+.teal{
+ color: white !important;
+ background: rgb(36, 169, 169) !important;
+}
+.names{
+ padding:30px;
+ font-weight:100;
+}
+.alvin img {
+ margin-left:300px;
+}
+/* .each .container{
+ display:flex;
+ flex-direction: column;
+ padding:15px;
+ border-top: 1px solid rgb(220, 212, 212); */
+
+.each{
+ margin:10px;
+ padding: 10px 0;
+ display:flex;
+ justify-content: space-between;
+ align-items: flex-start;
+}
+
+.each i{
+ flex: 1;
+}
+.each .line {
+ flex: 2;
+ align-items: center;
+}
+
+.star a {
+ color:teal;
+ 
+}
+.icon1 i{
+ width:45px;
+ height: 45px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(230, 182, 190);
+ color: #fff;
+}
+.icon1{
+ padding-right:15px;
+}
+.icon2 i{
+ width:45px;
+ height: 45px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: grey;
+ color: #fff;
+}
+.icon2{
+ padding-right:15px;
+}
+.icon3 i{
+ width:45px;
+ height: 45px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ background-color:green;
+}
+.icon3{
+ padding-right:15px;
+}
+.icon4 i{
+ width:45px;
+ height: 45px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ background-color:red;
+}
+.icon4{
+ padding-right:15px;
+}
+
+
+
+
+
+
